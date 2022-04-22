@@ -11,6 +11,9 @@ while True:
     salario = float(input("Digite sua salário: "))
     sexo = input("Digite (F)-Feminino, (M)-Masculino (H) - Homossexual: ").title()
     estciv = input("Digite seu estado civil (S)- Solteiro (C) - Casado (V) - Viúvo (D)- Divorciado:  ").title()
+    sair = input("Para sair do sistema aperte 0 - zero ou Enter para continuar!: ").title()
+    if sair == '0':
+        break 
     if  (len(nome)) > 3 :
         print( )
     if   (len(nome)) < 3 :
@@ -33,6 +36,6 @@ while True:
          print( )
     if estciv == 'D':
         print( )
-print("okkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk")
+    print("okkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk")
             
         
