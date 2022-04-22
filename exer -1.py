@@ -7,6 +7,6 @@ while True:
     if nota <  0 or  nota > 10:
         print(f"Sua nota é {nota} Inválida.\n Somente números entre 0 e 10.")
     else:
-        print(f"Sua nota {nota}. Valor Válido!")
+        print(f"Sua nota é {nota}. Valor Válido!")
         break
         
