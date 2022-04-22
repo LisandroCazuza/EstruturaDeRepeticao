@@ -8,3 +8,4 @@ while True:
         print(f"Sua senha {senha} é igual ao nome {nome}.")
     else:
         print("Senha e nome cadastrados com sucesso!")
+        break
