@@ -4,22 +4,35 @@ b.	Idade: entre 0 e 150;
 c.	Salário: maior que zero;
 d.	Sexo: 'f' ou 'm';
 e.	Estado Civil: 's', 'c', 'v', 'd';"""
-print("--------------------------------------------")
-
+print("\n-----------------------------------------------------")
 while True:
-    nome = input("Digite seu nome seu :  ").title()
+    nome = input("Digite seu nome seu : ").title()
     idade = int(input("Digite sua idade: "))
     salario = float(input("Digite sua salário: "))
-    sexo = str(input("Digite sua sexualidade- F - Feminino   - M- Masculino  : ").title()
+    sexo = input("Digite (F)-Feminino, (M)-Masculino (H) - Homossexual: ").title()
+    estciv = input("Digite seu estado civil (S)- Solteiro (C) - Casado (V) - Viúvo (D)- Divorciado:  ").title()
     if  (len(nome)) > 3 :
-        print("   ")
+        print( )
     if   (len(nome)) < 3 :
         print("Somente nome com mais de 3 caracteres! ")
     if idade > 0 or   idade < 151 :
-        print("   ")
+        print( )
     if salario > 0 :
-        print(" ")
-    if sexo == 'F' :
-            print('Sexo Feminino.')
-        
+        print( )
+    if sexo == 'M':
+        print(  )
+    elif sexo == 'F':
+        print( )
+    if sexo == 'H':
+        print( )
+    if estciv == 'S':
+        print( )
+    if estciv == 'C':
+        print( )
+    if estciv == 'V':
+         print( )
+    if estciv == 'D':
+        print( )
+print("okkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk")
+            
         
