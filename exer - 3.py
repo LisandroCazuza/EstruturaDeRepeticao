@@ -36,6 +36,7 @@ while True:
          print( )
     if estciv == 'D':
         print( )
-    print("okkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk")
+print(f"\n\tSeu cadastrado:\n\tNome: {nome}\n\tIdade: {idade} anos\n\t"
+          f"Salário: R$ {salario}\n\tSexo: {sexo}\n\tEstado Civil: {estciv}\n\t")
             
         
